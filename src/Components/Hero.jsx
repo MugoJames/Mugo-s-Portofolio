@@ -18,7 +18,7 @@ function Hero() {
                        <a href="#" className="shadow-shadow-1 bg-border-gradient-onyx p-3 text-2xl mx-2 text-orange-yellow-crayola rounded-lg cursor-pointer"><AiFillGithub /></a>
                        <a href="#" className="shadow-shadow-1 bg-border-gradient-onyx p-3 text-2xl mx-2 text-orange-yellow-crayola rounded-lg cursor-pointer"><AiFillInstagram /></a>
                     </div>
-                    <button className='bg-onyx text-[11px] rounded-full p-3 mt-4 w-32'>Lets Connect</button> {/* Added mt-4 */}
+                    <button className='bg-onyx text-[11px] rounded-full p-3 mt-4 w-32 hover:bg-customGray'>Lets Connect</button> {/* Added mt-4 */}
                 </div>
             </div>
             {/* Right side with the text */}

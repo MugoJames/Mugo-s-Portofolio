@@ -15,6 +15,10 @@ export default {
         'onyx': 'hsl(240, 1%, 17%)',
         'orange-yellow-crayola': 'hsl(45, 100%, 72%)',
         'smoky-black': 'hsl(0, 0%, 7%)',
+        'light-gray-70': 'hsla(0, 0%, 84%, 0.7)',
+        customGray: '#282925',
+
+
       },
       boxShadow: {
         'shadow-1': '-4px 8px 24px hsla(0, 0%, 0%, 0.25)',
