@@ -22,12 +22,19 @@ export default {
       },
       boxShadow: {
         'shadow-1': '-4px 8px 24px hsla(0, 0%, 0%, 0.25)',
+        'shadow-2': '0 16px 30px hsla(0, 0%, 0%, 0.25)',
+
       },
       zIndex: {
         '1': '1',
       },
       backgroundImage: {
         'border-gradient-onyx': 'linear-gradient(to bottom right, hsl(0, 0%, 25%) 0%, hsla(0, 0%, 25%, 0) 50%)',
+
+      'bg-gradient-jet':'linear-gradient(to bottom right, hsla(240, 1%, 18%, 0.251) 0%, hsla(240, 2%, 11%, 0) 100%), hsl(240, 2%, 13%)',
+      },
+      lineHeight: {
+        'custom': '1.6',
       },
       
     },
