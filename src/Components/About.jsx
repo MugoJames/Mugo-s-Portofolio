@@ -6,7 +6,7 @@ function About() {
   return (
     <div className='p-8 text-white bg-eerie-black-2'>
       <div className='text-white p-8'>
-        <h1 className='capitalize text-[24px]'>About Me</h1>
+        <h1 className='capitalize text-[28px]'>About Me</h1>
         <div className='bg-orange-yellow-crayola w-10 mt-2 h-[5px] rounded-full'></div>
       </div>
       <div className='p-4'>
