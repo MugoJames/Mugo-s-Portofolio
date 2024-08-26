@@ -11,10 +11,10 @@ function About() {
       </div>
       <div className='p-4'>
         <h2 className='text-[23px]'>👋 Hi there!</h2>
-        <p className='text-start mx-auto pr-80 text-[16px] text-light-gray p-4'>
-          I'm a passionate and motivated <span className='text-orange-yellow-crayola'>Junior Full-stack Developer</span> with a strong hold on front-end development and a growing expertise in backend technologies. I thrive on creating engaging and responsive user interfaces while continuously improving my server-side development skills.
+        <p className='text-start mx-auto pr-80 text-[16px] text-light-gray p-4 font-normal'>
+          I'm a passionate and motivated <span className='text-vegas-gold font-normal'>Junior Full-stack Developer</span> with a strong hold on front-end development and a growing expertise in backend technologies. I thrive on creating engaging and responsive user interfaces while continuously improving my server-side development skills.
         </p>
-        <p className='pt-4 pr-80 text-[16px] text-light-gray p-4'>
+        <p className='pt-4 pr-80 text-[16px] text-light-gray p-4 font-normal'>
           My job is to develop your applications to be functional, user-friendly, and visually appealing. I ensure that every project I work on has a personal touch, making it both eye-catching and easy to use. My goal is to effectively communicate your message and identity through innovative and creative solutions. I have had the opportunity to contribute to various projects, enhancing the digital presence of multiple companies.
         </p>
       </div>

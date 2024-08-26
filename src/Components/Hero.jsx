@@ -10,7 +10,7 @@ function Hero() {
             {/* Left side with the image */}
             <div className="flex flex-col  gap-3">
                 <h4 className="text-2xl font-bold ">Hi! I'm <span>Mugo James</span> </h4>
-                <h3>A Frontend Web Developer. </h3>
+                <h3 className='font-normal'>A Full-Stack Web Developer. </h3>
                 <h1 className='text-2xl  max-w-lg mx-auto'>I turn idea's into interactive experiences, one line of code at a time.</h1>
                 <div className="flex flex-col ">
                     <div className="flex  mt-4">

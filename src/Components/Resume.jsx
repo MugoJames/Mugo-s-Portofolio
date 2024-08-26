@@ -66,6 +66,84 @@ function Resume() {
           </li>
         </ol>
       </section>
+
+      <section className='p-8'>
+        <h3 className='mb-[20px] text-white text-[18px] capitalize '>my skills</h3>
+        <ul className=' bg-border-gradient-onyx shadow-shadow-2 p-10 rounded-[14px] '>
+            <li className='mb-5'>
+                <div className='flex align-center gap-[5px] mb-[8px]'>
+                    <h5 className='text-white capitalize text-[13px] font-medium  '>HTML</h5>
+                    <data className='text-light-gray font-light text-[13px]  ' value="95%">95%</data>
+                </div>
+                <div className='bg-jet w-full h-[8px] rounded-[10px]  '>
+                    <div className='h-full w-[95%] bg-text-gradient-yellow rounded-[10px] '></div>
+                </div>
+            </li>
+            <li className='mb-5'>
+                <div className='flex align-center gap-[5px] mb-[8px]'>
+                    <h5 className='text-white capitalize text-[13px] font-medium  '>CSS</h5>
+                    <data className='text-light-gray font-light text-[13px]  ' value="90%">90%</data>
+                </div>
+                <div className='bg-jet w-full h-[8px] rounded-[10px]  '>
+                    <div className='h-full w-[90%] bg-text-gradient-yellow rounded-[10px] '></div>
+                </div>
+            </li>
+            <li className='mb-5'>
+                <div className='flex align-center gap-[5px] mb-[8px]'>
+                    <h5 className='text-white capitalize text-[13px] font-medium  '>Tailwind CSS</h5>
+                    <data className='text-light-gray font-light text-[13px]  ' value="95%">95%</data>
+                </div>
+                <div className='bg-jet w-full h-[8px] rounded-[10px]  '>
+                    <div className='h-full w-[95%] bg-text-gradient-yellow rounded-[10px] '></div>
+                </div>
+            </li>
+            <li className='mb-5'>
+                <div className='flex align-center gap-[5px] mb-[8px]'>
+                    <h5 className='text-white capitalize text-[13px] font-medium  '>Javascript</h5>
+                    <data className='text-light-gray font-light text-[13px]  ' value="70%">70%</data>
+                </div>
+                <div className='bg-jet w-full h-[8px] rounded-[10px]  '>
+                    <div className='h-full w-[70%] bg-text-gradient-yellow rounded-[10px] '></div>
+                </div>
+            </li>
+            <li className='mb-5'>
+                <div className='flex align-center gap-[5px] mb-[8px]'>
+                    <h5 className='text-white capitalize text-[13px] font-medium  '>React</h5>
+                    <data className='text-light-gray font-light text-[13px]  ' value="80%">80%</data>
+                </div>
+                <div className='bg-jet w-full h-[8px] rounded-[10px]  '>
+                    <div className='h-full w-[80%] bg-text-gradient-yellow rounded-[10px] '></div>
+                </div>
+            </li>
+            <li className='mb-5'>
+                <div className='flex align-center gap-[5px] mb-[8px]'>
+                    <h5 className='text-white capitalize text-[13px] font-medium  '>Python</h5>
+                    <data className='text-light-gray font-light text-[13px]  ' value="70%">70%</data>
+                </div>
+                <div className='bg-jet w-full h-[8px] rounded-[10px]  '>
+                    <div className='h-full w-[70%] bg-text-gradient-yellow rounded-[10px] '></div>
+                </div>
+            </li>
+            <li className='mb-5'>
+                <div className='flex align-center gap-[5px] mb-[8px]'>
+                    <h5 className='text-white capitalize text-[13px] font-medium  '>Flask</h5>
+                    <data className='text-light-gray font-light text-[13px]  ' value="75%">75%</data>
+                </div>
+                <div className='bg-jet w-full h-[8px] rounded-[10px]  '>
+                    <div className='h-full w-[75%] bg-text-gradient-yellow rounded-[10px] '></div>
+                </div>
+            </li>
+            <li className='mb-5'>
+                <div className='flex align-center gap-[5px] mb-[8px]'>
+                    <h5 className='text-white capitalize text-[13px] font-medium  '>SQL</h5>
+                    <data className='text-light-gray font-light text-[13px]  ' value="70%">70%</data>
+                </div>
+                <div className='bg-jet w-full h-[8px] rounded-[10px]  '>
+                    <div className='h-full w-[70%] bg-text-gradient-yellow rounded-[10px] '></div>
+                </div>
+            </li>
+        </ul>
+      </section>
     </div>
   );
 }
