@@ -17,9 +17,11 @@ export default {
         'smoky-black': 'hsl(0, 0%, 7%)',
         'light-gray-70': 'hsla(0, 0%, 84%, 0.7)',
         'vegas-gold': 'hsl(45, 54%, 58%)',
+        'background': 'hsla(0, 0%, 0%, 0.5)',
         customGray: '#282925',
-
-
+      },
+      scale: {
+        '80': '0.8',
       },
       boxShadow: {
         'shadow-1': '-4px 8px 24px hsla(0, 0%, 0%, 0.25)',

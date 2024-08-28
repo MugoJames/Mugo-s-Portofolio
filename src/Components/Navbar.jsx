@@ -74,26 +74,26 @@ const Navbar = () => {
             </li>
             <li className='p-2'>
               <NavLink
-                to="/company"
-                className={({ isActive }) => isActive ? 'text-orange-yellow-crayola' : ''}
-              >
-                Company
-              </NavLink>
-            </li>
-            <li className='p-2'>
-              <NavLink
-                to="/resources"
-                className={({ isActive }) => isActive ? 'text-orange-yellow-crayola' : ''}
-              >
-                Resources
-              </NavLink>
-            </li>
-            <li className='p-2'>
-              <NavLink
                 to="/about"
                 className={({ isActive }) => isActive ? 'text-orange-yellow-crayola' : ''}
               >
                 About
+              </NavLink>
+            </li>
+            <li className='p-2'>
+              <NavLink
+                to="/resume"
+                className={({ isActive }) => isActive ? 'text-orange-yellow-crayola' : ''}
+              >
+                Resume
+              </NavLink>
+            </li>
+            <li className='p-2'>
+              <NavLink
+                to="/portfolio"
+                className={({ isActive }) => isActive ? 'text-orange-yellow-crayola' : ''}
+              >
+                Portfolio
               </NavLink>
             </li>
             <li className='p-2'>
