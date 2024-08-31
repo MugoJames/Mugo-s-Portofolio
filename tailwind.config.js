@@ -18,6 +18,8 @@ export default {
         'light-gray-70': 'hsla(0, 0%, 84%, 0.7)',
         'vegas-gold': 'hsl(45, 54%, 58%)',
         'background': 'hsla(0, 0%, 0%, 0.5)',
+        'bittersweet-shimmer': 'hsl(0, 43%, 51%)',
+
         customGray: '#282925',
       },
       scale: {
@@ -26,6 +28,8 @@ export default {
       boxShadow: {
         'shadow-1': '-4px 8px 24px hsla(0, 0%, 0%, 0.25)',
         'shadow-2': '0 16px 30px hsla(0, 0%, 0%, 0.25)',
+        'shadow-3': '0 16px 40px hsla(0, 0%, 0%, 0.25)',
+
 
       },
       zIndex: {

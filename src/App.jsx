@@ -5,6 +5,7 @@ import Hero from './Components/Hero'
 import About from './Components/About'
 import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
+import Contacts from './Components/Contacts';
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/resume" element={<Resume/>}/>
           <Route path="/portfolio" element={<Portfolio/>}/>
+          <Route path="/contact" element={<Contacts/>}/>
         </Routes>
       </Router>
     </div>

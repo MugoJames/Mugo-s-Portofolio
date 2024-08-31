@@ -10,7 +10,7 @@ const Portfolio = () => {
     switch (activeTab) {
       case 'WebDesign':
         return (
-          <div className='bg-eerie-black-2 flex grid-cols-2'>
+          <div className='bg-eerie-black-2 lg:flex lg:grid-cols-2'>
             <div className='gap-10 p-5  '>
               <div className=''>
                 <img src={design2} alt="project1" className='h-[300px] w-[500px] rounded-lg' />
@@ -34,7 +34,7 @@ const Portfolio = () => {
         );
           default:
         return (
-          <div className='bg-eerie-black-2 flex '>
+          <div className='bg-eerie-black-2 lg:flex'>
             <div className='gap-10 p-9'>
               <div className=''>
                 <img src={project2} alt="project1" className='h-[300px] w-[500px] rounded-lg' />

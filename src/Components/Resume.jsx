@@ -10,7 +10,7 @@ function Resume() {
       </div>
 
       <section className='mb-[50px] pl-8 relative'>
-        <div className='absolute top-10 left-[53px] w-[1px] h-[190px] bg-jet'></div>
+        <div className='absolute top-10 left-[53px] w-[1px] lg:h-[190px] h-[430px] md:h-[240px] bg-jet'></div>
         <div className='text-white flex items-center gap-[15px] mb-[25px] relative'>
           <div className='bg-border-gradient-onyx text-orange-yellow-crayola w-[40px] h-[40px]  
                           text-[16px] p-1 border border-jet rounded-[8px] shadow-shadow-1 flex items-center justify-center'>
@@ -24,7 +24,7 @@ function Resume() {
             <div className='absolute w-[10px] h-[10px] bg-orange-yellow-crayola rounded-full left-[-28px] top-[7px]'></div>
             <h4 className='text-[14px] text-white mb-[7px]'>Regional Centre For Mapping Of Resources For Development</h4>
             <span className='text-vegas-gold font-normal'>2021 — 2022</span>
-            <p className='mb-[20px] text-light-gray font-light leading-[1.6] pr-40'>
+            <p className='mb-[20px] text-light-gray font-light leading-[1.6] lg:pr-40'>
               Completed the International Computer Driving License (ICDL) certification, gaining comprehensive 
               skills in essential computer applications, including word processing, spreadsheets, presentations, and databases. This course enhanced my 
               digital literacy and proficiency in using key software tools efficiently for both personal and professional tasks.
@@ -34,7 +34,7 @@ function Resume() {
             <div className='absolute w-[10px] h-[10px] bg-orange-yellow-crayola rounded-full left-[-28px] top-[7px]'></div>
             <h4 className='text-[14px] text-white mb-[7px]'>Moringa School</h4>
             <span className='text-vegas-gold font-normal'>2024 — 2024</span>
-            <p className='mb-[20px] text-light-gray font-light leading-[1.6] pr-40'>
+            <p className='mb-[20px] text-light-gray font-light leading-[1.6] lg:pr-40'>
                 Completed an intensive software engineering program focused on full-stack development and real-world project experience.
             </p>
           </li>
@@ -69,7 +69,7 @@ function Resume() {
 
       <section className='p-8'>
         <h3 className='mb-[20px] text-white text-[18px] capitalize '>my skills</h3>
-        <ul className=' bg-border-gradient-onyx shadow-shadow-2 p-10 rounded-[14px] '>
+        <ul className=' bg-bg-gradient-jet  shadow-shadow-2 p-10 rounded-[14px] border border-jet'>
             <li className='mb-5'>
                 <div className='flex align-center gap-[5px] mb-[8px]'>
                     <h5 className='text-white capitalize text-[13px] font-medium  '>HTML</h5>
