@@ -119,9 +119,9 @@ function Contacts() {
         <div className='bg-eerie-black-2 rounded-[20px] border-jet p-10 m-10'>
             <h3 className='mb-[20px] text-white-2 text-[20px]'>Contact Form</h3>
             <form data-form onSubmit={handleSubmit}>
-              <div className='grid grid-cols-2 gap-[25px] mb-[25px]'>
+              <div className='lg:grid lg:grid-cols-2 gap-[25px] mb-[25px]'>
                     <input 
-                       className='text-white-2 bg-transparent outline-none py-[13px] px-[20px] text-[14px] font-normal border border-jet rounded-[14px] focus:border-orange-yellow-crayola focus:invalid:border-bittersweet-shimmer' 
+                       className='text-white-2 mb-6 bg-transparent outline-none py-[13px] px-[20px] text-[14px] font-normal border border-jet rounded-[14px] focus:border-orange-yellow-crayola focus:invalid:border-bittersweet-shimmer' 
                        type="text" 
                        name='fullName' 
                        placeholder='Full name' 
