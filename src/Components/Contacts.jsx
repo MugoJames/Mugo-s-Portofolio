@@ -131,7 +131,7 @@ function Contacts() {
                     />
 
                     <input 
-                       className='text-white-2 bg-transparent outline-none py-[13px] px-[20px] text-[14px] font-normal border border-jet rounded-[14px] focus:border-orange-yellow-crayola focus:invalid:border-bittersweet-shimmer' 
+                       className='text-white-2 mb-6 bg-transparent outline-none py-[13px] px-[20px] text-[14px] font-normal border border-jet rounded-[14px] focus:border-orange-yellow-crayola focus:invalid:border-bittersweet-shimmer' 
                        type="email" 
                        name='email' 
                        placeholder='Email address' 
