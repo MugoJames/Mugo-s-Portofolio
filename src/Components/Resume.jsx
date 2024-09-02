@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaMedal } from "react-icons/fa6";
+import { IoBookOutline } from "react-icons/io5";
 
 function Resume() {
   return (
@@ -14,7 +15,7 @@ function Resume() {
         <div className='text-white flex items-center gap-[15px] mb-[25px] relative'>
           <div className='bg-border-gradient-onyx text-orange-yellow-crayola w-[40px] h-[40px]  
                           text-[16px] p-1 border border-jet rounded-[8px] shadow-shadow-1 flex items-center justify-center'>
-            <span className="material-symbols-outlined">import_contacts</span>
+                <IoBookOutline/>            
           </div>
           <h3 className='text-[18px] capitalize'>Education</h3>
         </div>
