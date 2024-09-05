@@ -3,6 +3,7 @@ import project1 from "../assets/Project1.png"
 import project2 from "../assets/Project2.png"
 import design1 from "../assets/Design1.jpeg"
 import design2 from "../assets/Design2.jpeg"
+import project3 from "../assets/Project3.png"
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState('WebDevelopment');
 
@@ -34,8 +35,8 @@ const Portfolio = () => {
         );
           default:
         return (
-          <div className='bg-eerie-black-2 lg:flex'>
-            <div className='gap-10 p-9'>
+          <div className='bg-eerie-black-2 lg:flex lg:flex-wrap'>
+            <div className='gap-10 p-5'>
               <div className=''>
                 <img src={project2} alt="project1" className='h-[300px] w-[500px] rounded-lg' />
               </div>
@@ -45,13 +46,22 @@ const Portfolio = () => {
 
               </div>
             </div>
-            <div className='gap-10 p-9'>
+            <div className='gap-10 p-5'>
               <div className=''>
                 <img src={project1} alt="project1" className='h-[300px] w-[500px] rounded-lg' />
               </div>
               <div className='text-white-2 pt-4 '>
                 <h1 className='text-[19px] font-normal '>Skull-Fitness</h1>
                 <p className='text-light-gray-70 text-[14px] font-light '> A Dynamic gym website for fitness enthusiasts.</p>
+              </div>
+            </div>
+            <div className='gap-10 p-5'>
+              <div className=''>
+                <img src={project3} alt="project1" className='h-[300px] w-[500px] rounded-lg' />
+              </div>
+              <div className='text-white-2 pt-4 '>
+                <h1 className='text-[19px] font-normal '>KYR-Africa(Know your rights)</h1>
+                <p className='text-light-gray-70 text-[14px] font-light '> A company project aimed at providing user-friendly and affordable access to justice education and advice on individual freedoms and rights. </p>
               </div>
             </div>
 
