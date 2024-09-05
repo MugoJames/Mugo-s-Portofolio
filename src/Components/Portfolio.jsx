@@ -4,6 +4,7 @@ import project2 from "../assets/Project2.png"
 import design1 from "../assets/Design1.jpeg"
 import design2 from "../assets/Design2.jpeg"
 import project3 from "../assets/Project3.png"
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
 const Portfolio = () => {
   const [activeTab, setActiveTab] = useState('WebDevelopment');
 
@@ -43,6 +44,11 @@ const Portfolio = () => {
               <div className='text-white-2 pt-4 '>
                 <h1 className='text-[19px] font-normal '>Coffee</h1>
                 <p className='text-light-gray-70 text-[14px] font-light '>An Elegant coffee website for coffee lovers.</p>
+                <a href="https://mugojames.github.io/Responsive-Coffee-Website/" target="_blank" rel="noopener noreferrer">
+                  <button className='mt-4 px-6 py-2 bg-border-gradient-onyx  rounded-full text-orange-yellow-crayola  border border-jet flex items-center hover:bg-primary-dark'>
+                    View Project <FaArrowUpRightFromSquare className='ml-2' />
+                  </button>
+                </a>
 
               </div>
             </div>
@@ -53,6 +59,11 @@ const Portfolio = () => {
               <div className='text-white-2 pt-4 '>
                 <h1 className='text-[19px] font-normal '>Skull-Fitness</h1>
                 <p className='text-light-gray-70 text-[14px] font-light '> A Dynamic gym website for fitness enthusiasts.</p>
+                <a href="https://skull-fitness-project.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <button className='mt-4 px-6 py-2 bg-border-gradient-onyx  rounded-full text-orange-yellow-crayola  border border-jet flex items-center hover:bg-primary-dark'>
+                    View Project <FaArrowUpRightFromSquare className='ml-2' />
+                  </button>
+                </a>
               </div>
             </div>
             <div className='gap-10 p-5'>
@@ -62,6 +73,11 @@ const Portfolio = () => {
               <div className='text-white-2 pt-4 '>
                 <h1 className='text-[19px] font-normal '>KYR-Africa(Know your rights)</h1>
                 <p className='text-light-gray-70 text-[14px] font-light '> A company project aimed at providing user-friendly and affordable access to justice education and advice on individual freedoms and rights. </p>
+                <a href="https://know-you-rights.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <button className='mt-4 px-6 py-2 bg-border-gradient-onyx  rounded-full text-orange-yellow-crayola  border border-jet flex items-center hover:bg-primary-dark'>
+                    View Project <FaArrowUpRightFromSquare className='ml-2' />
+                  </button>
+                </a>
               </div>
             </div>
 
