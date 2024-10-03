@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiFillLinkedin, AiFillGithub, AiFillInstagram } from 'react-icons/ai';
 import { TypeAnimation } from 'react-type-animation';
+import { Link } from 'react-router-dom';
 import portofolio from '../assets/portofolio.jpeg';
 
 function Hero() {
@@ -39,9 +40,9 @@ function Hero() {
                             <AiFillInstagram />
                         </a>
                     </div>
-                    <a href="/contact">
+                    <Link to="/contact">
                         <button className='bg-onyx text-[11px] rounded-full p-3 mt-4 w-32 hover:bg-customGray'>Let's Connect</button>
-                    </a>
+                    </Link>
                 </div>
             </div>
             {/* Right side with the image */}
