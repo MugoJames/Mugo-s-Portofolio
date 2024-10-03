@@ -14,11 +14,34 @@ function Hero() {
                 <h1 className='text-2xl max-w-lg mx-auto'>I turn idea's into interactive experiences, one line of code at a time.</h1>
                 <div className="flex flex-col">
                     <div className="flex mt-4">
-                       <a href="#" className="shadow-shadow-1 bg-border-gradient-onyx p-3 text-2xl mx-2 text-orange-yellow-crayola rounded-lg cursor-pointer"><AiFillLinkedin /></a>
-                       <a href="#" className="shadow-shadow-1 bg-border-gradient-onyx p-3 text-2xl mx-2 text-orange-yellow-crayola rounded-lg cursor-pointer"><AiFillGithub /></a>
-                       <a href="#" className="shadow-shadow-1 bg-border-gradient-onyx p-3 text-2xl mx-2 text-orange-yellow-crayola rounded-lg cursor-pointer"><AiFillInstagram /></a>
+                       <a 
+                          href="https://www.linkedin.com/in/james-mugo-6586b42b8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" 
+                          className="shadow-shadow-1 bg-border-gradient-onyx p-3 text-2xl mx-2 text-orange-yellow-crayola rounded-lg cursor-pointer"
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                        >
+                           <AiFillLinkedin />
+                        </a>
+                       <a 
+                            href="https://github.com/MugoJames" 
+                            className="shadow-shadow-1 bg-border-gradient-onyx p-3 text-2xl mx-2 text-orange-yellow-crayola rounded-lg cursor-pointer"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <AiFillGithub />
+                        </a>
+                       <a 
+                            href="https://www.instagram.com/_mugo_james?igsh=MXBhaHBkYzBobnJ5Zg==" 
+                            className="shadow-shadow-1 bg-border-gradient-onyx p-3 text-2xl mx-2 text-orange-yellow-crayola rounded-lg cursor-pointer"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <AiFillInstagram />
+                        </a>
                     </div>
-                    <button className='bg-onyx text-[11px] rounded-full p-3 mt-4 w-32 hover:bg-customGray'>Let's Connect</button>
+                    <a href="/contact">
+                        <button className='bg-onyx text-[11px] rounded-full p-3 mt-4 w-32 hover:bg-customGray'>Let's Connect</button>
+                    </a>
                 </div>
             </div>
             {/* Right side with the image */}

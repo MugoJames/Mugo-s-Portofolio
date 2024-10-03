@@ -18,7 +18,7 @@ const Navbar = () => {
           <li className='p-2'>
             <NavLink
               to="/"
-              className={({ isActive }) => isActive ? 'text-orange-yellow-crayola' : 'hover:text-light-gray-70 focus:text-light-gray-70'}
+              className={({ isActive }) => isActive ? 'text-orange-yellow-crayola' : 'hover:text-neutral-600 focus:text-light-gray-70'}
             >
               Home
             </NavLink>
