@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import { FiArrowDown, FiArrowUpRight, FiCheck, FiCode, FiDatabase, FiDownload, FiGithub, FiMail, FiMapPin, FiMenu, FiMoon, FiPhone, FiSend, FiSun, FiX, FiZap } from 'react-icons/fi';
 import { FaLaravel, FaNodeJs, FaPython, FaReact } from 'react-icons/fa';
 import { SiDart, SiFlask, SiFlutter, SiJavascript, SiMongodb, SiMysql, SiPostgresql, SiTailwindcss, SiVuedotjs } from 'react-icons/si';
-import project1 from './assets/Project1.png'; import eventra from './assets/Eventra.png'; import afriMart from './assets/AfriMart.png'; import trendware from './assets/Trendware.png';
+import eventra from './assets/Eventra.png'; import afriMart from './assets/AfriMart.png'; import trendware from './assets/Trendware.png';
 
 const navItems=['Home','About','Skills','Projects','Process','Contact'];
 const services=[['Full-Stack Development','Building complete web applications across frontend, backend, APIs, and databases.',FiCode],['Frontend Development','Responsive, interactive interfaces using React, JavaScript, HTML, CSS, Tailwind CSS, and Vue.js.',FaReact],['Backend & API Development','REST APIs and application backends using Node.js, Python/Flask, PHP, and Laravel.',FiZap],['Mobile Development','Cross-platform mobile applications built with Flutter and Dart.',SiFlutter],['Database Development','Relational databases, SQL, and practical application data structures.',FiDatabase],['API & Payment Integration','Third-party API integrations, including Safaricom Daraja API and M-Pesa payments.',FiArrowUpRight]];
